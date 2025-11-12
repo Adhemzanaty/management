@@ -1,0 +1,154 @@
+.jobsMainDiv{
+    min-height: 75vh;
+}
+.my-w{
+    width: 80%;
+}
+
+.dashDiv{
+    border: 2px solid #1c6759;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    /* background-color: rgba(28, 103, 89,0.3); */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.5s;
+
+
+}
+.dashDiv:hover{
+    border-radius: 35px;
+    background-color: #1c6759;
+    color: white;
+
+}
+
+.dashDiv:hover .progress-bar{
+    background-color: white;
+    color: #1c6759;
+
+}
+.dashDivH{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+
+
+
+.progress-bar {
+    color: white;
+    background-color: #1c6759;
+    transition: all 0.5s;
+
+}
+
+.progress {
+    /* width: 50%; */
+    background-color: rgba(128, 128, 128, 0.6);
+    height: 40px;
+}
+
+
+@media all and (max-width: 991px ){
+
+    .my-w{
+        width: 90%;
+    }
+  }
+
+
+
+
+
+  /********************** YELLOW DIV  **********************/
+
+
+
+  
+.dashDiv2{
+    border: 2px solid #ffc107;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    /* background-color:rgba(255, 217, 0, 0.3); */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.5s;
+
+
+}
+.dashDiv2:hover{
+    border-radius: 35px;
+    background-color: #ffc107;
+    color: white;
+
+}
+
+.dashDiv2:hover .ourProgress1{
+    background-color: white;
+    color: #ffc107;
+
+}
+
+.ourProgress1{
+    color: white;
+    background-color: #ffc107;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+
+
+
+
+
+  /********************** RED DIV  **********************/
+
+
+
+  
+  .dashDiv3{
+    border: 2px solid #DC3545;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    /* background-color:rgba(255, 217, 0, 0.3); */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.5s;
+
+
+}
+.dashDiv3:hover{
+    border-radius: 35px;
+    background-color: #DC3545;
+    color: white;
+
+}
+
+.dashDiv3:hover .ourProgress2{
+    background-color: white;
+    color: #DC3545;
+
+}
+
+.ourProgress2{
+    color: white;
+    background-color: #DC3545;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+
+}

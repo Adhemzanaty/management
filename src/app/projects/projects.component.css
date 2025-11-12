@@ -1,0 +1,180 @@
+.jobsMainDiv{
+    min-height: 75vh;
+}
+.my-w{
+    width: 80%;
+}
+.addJobs{
+    
+    border: 1px solid #1c6759;
+    padding: 25px 10px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.addJobs:hover{
+    border-radius: 35px;
+
+}
+.dropdownButton{
+    width: 100%;
+    padding: 10px ;
+}
+input {
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    height: 55px;
+
+  }
+  input:focus {
+        border: 2px solid #1c6759;
+        box-shadow: 0 0 3px 2px rgba(40,167,69,0.3);
+        border-radius: 25px;
+  }
+
+  .myRadio{
+
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+
+
+  }
+  .myRadio:focus {
+    border: none;
+    width: 28px;
+    height: 28px;
+}
+.form-check-input:checked {
+    background-color: #1c6759;
+    border-color: #1c6759;
+}
+
+  select {
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    height: 55px;
+  }
+  select:focus {
+        border: 2px solid #1c6759;
+        box-shadow: 0 0 3px 2px rgba(40,167,69,0.3);
+        border-radius: 25px;
+  }
+
+  .OurButton{
+    height: 55px;
+    width: 100%;
+  }
+  .table{
+    min-width: 1000px;
+  }
+
+  .form-check .form-check-input {
+     float: none;
+    margin-left: -1.5em;
+}
+
+  @media all and (max-width: 991px ){
+
+    .my-w{
+        width: 90%;
+    }
+  }
+
+
+
+
+
+  
+#fixedBox{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+  
+  }
+  #smallBox{
+    padding: 35px 10px 0px 10px;
+    background-color: #f2f9f5;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0,0.3);
+    z-index: 400;
+    border-radius: 25px;
+  
+  
+  }
+  
+  .content-number{
+    color: black ;
+    font-size: 23px;
+    padding: 10px;
+    font-weight: bold;
+  
+  }
+  .content-number h1{
+    color: black ;
+    font-size: 70px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .small-nafath{
+    color: #1a9b8f ;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+  
+  }
+  .continue_nafath{
+    color: black ;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  #closeBtn{
+    position: absolute;
+    font-size: 30px;
+    top:25px;
+    right: 25px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  
+  .width-75{
+    width: 75%;
+  }
+  
+  
+  @media all and (max-width: 771px) {
+  
+    #smallBox{
+      height: 90%;
+      width: 90%;
+    }
+  
+    .loginFullPage .pageContainer .loginContent .pageWrapper .logo {
+      margin-bottom: 10px;
+    }
+  
+    .loginFullPage .pageContainer .loginContent .pageWrapper .logo h2 {
+      font-size: 23px;
+    }
+    
+    .loginFullPage .pageContainer .loginContent .pageWrapper .logo h5 {
+      font-size: 14px;
+    }
+  
+  }
